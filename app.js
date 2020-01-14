@@ -29,7 +29,7 @@ const item2=new Item({
   name:"Enter what you want to add"
 });
 const item3=new Item({
-  name:"Pre delete button for deletion"
+  name:"click checkbox for  deletion"
 });
 
 const arr=[item1,item2,item3]
