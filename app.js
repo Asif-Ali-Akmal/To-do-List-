@@ -37,7 +37,7 @@ app.get("/",function(req,res){
   Item.find(function(err,items){
   if(items.length === 0){
     Item.insertMany(arr,function(err){
-      console.log("succesfully Inserted!");
+    
     });
     res.redirect("/");
   }else {
